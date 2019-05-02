@@ -75,7 +75,7 @@ let purchase = () => {
                             console.log("Your total is $" + productInfo.price * quantity)
                             console.log("Thank you for shopping with bamazon!")
                             console.log(" - - - - - - - - - - - - - - - ")
-                            console.log("To shop again with us please input 'node bamazonCustomer.js' into your command line again.")
+                            console.log("To shop again with us please input 'node bamazon.js' into your command line again.")
                             console.log("\n")
                             connection.end();
                         })
